@@ -2,6 +2,8 @@
 
 # allows the user to simply record a note, saves it together with unix time in notes/
 
+cd /home/anant/.ulogme
+
 mkdir -p logs
 
 read -p "Enter note: " n

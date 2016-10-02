@@ -3,6 +3,8 @@
 # periodically takes screenshot and saves them to desktopscr/
 # the filename contains unix time
 
+cd /home/anant/.ulogme
+
 # wait time in seconds
 waittime="60"
 # directory to save screenshots to

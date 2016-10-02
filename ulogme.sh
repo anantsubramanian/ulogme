@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /home/anant/.ulogme
+
 if [ "$(uname)" == "Darwin" ]; then
   # This is a Mac
   ./osx/run_ulogme_osx.sh
@@ -9,3 +11,4 @@ else
   sudo ./keyfreq.sh &
   ./logactivewin.sh
 fi
+

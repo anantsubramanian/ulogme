@@ -12,6 +12,8 @@ waittime="2" # number of seconds between executions of loop
 maxtime="600" # if last write happened more than this many seconds ago, write even if no window title changed
 #------------------------------
 
+cd /home/anant/.ulogme
+
 mkdir -p logs
 last_write="0"
 lasttitle=""

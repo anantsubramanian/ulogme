@@ -9,6 +9,8 @@ LANG=en_US.utf8
 
 helperfile="logs/keyfreqraw.txt" # temporary helper file
 
+cd /home/anant/.ulogme
+
 mkdir -p logs
 
 while true
